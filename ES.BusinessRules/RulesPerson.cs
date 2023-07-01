@@ -5,9 +5,10 @@ namespace ES.BusinessRules
 {
     public class RulesPerson
     {
+        DataPerson db = new DataPerson();
         public bool addPerson(ModelPerson mp)
         {
-            DataPerson db = new DataPerson();
+           
             if(db.addPerson(mp))
             {
                 return true;
@@ -16,6 +17,11 @@ namespace ES.BusinessRules
             {
                 return false;
             }
+        }
+
+        public int getWeight()
+        {
+            return db.getSumWeight();
         }
     }
 }

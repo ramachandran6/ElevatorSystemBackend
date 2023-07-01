@@ -34,5 +34,20 @@ namespace ES.DataAccess
             }
            
         }
+
+        public int getSumWeight()
+        {
+            SqlConnection conn = new SqlConnection(ConnectionString);
+            conn.Open();
+            string query = $"select SUM(weight) from personTable";
+
+            SqlCommand command = new SqlCommand(query, conn);
+            command.CommandText = query;
+            command.Connection = conn;
+            command.CommandType = System.Data.CommandType.Text;
+
+            int weight = (int)command.ExecuteScalar();
+            return weight;
+        }
     }
 }

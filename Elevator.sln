@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.UI", "ES.UI\ES.UI.csproj", "{36CFC535-D1E6-4051-BA74-3C3BC55E7EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ES.UI", "ES.UI\ES.UI.csproj", "{36CFC535-D1E6-4051-BA74-3C3BC55E7EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Model", "ES.Model\ES.Model.csproj", "{FBE36EC6-9F17-4555-B8D9-020796676630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ES.Model", "ES.Model\ES.Model.csproj", "{FBE36EC6-9F17-4555-B8D9-020796676630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.BusinessRules", "ES.BusinessRules\ES.BusinessRules.csproj", "{1A433047-DA98-462F-9D88-C20266D026FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ES.BusinessRules", "ES.BusinessRules\ES.BusinessRules.csproj", "{1A433047-DA98-462F-9D88-C20266D026FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.DataAccess", "ES.DataAccess\ES.DataAccess.csproj", "{55784C77-6AB2-4DBE-83A8-AD172C0DC314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ES.DataAccess", "ES.DataAccess\ES.DataAccess.csproj", "{55784C77-6AB2-4DBE-83A8-AD172C0DC314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.GetWeightApi", "ES.GetWeightApi\ES.GetWeightApi.csproj", "{1AF9F048-8CE6-48AA-B288-616503BEC9BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{55784C77-6AB2-4DBE-83A8-AD172C0DC314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55784C77-6AB2-4DBE-83A8-AD172C0DC314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55784C77-6AB2-4DBE-83A8-AD172C0DC314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF9F048-8CE6-48AA-B288-616503BEC9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF9F048-8CE6-48AA-B288-616503BEC9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF9F048-8CE6-48AA-B288-616503BEC9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF9F048-8CE6-48AA-B288-616503BEC9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
